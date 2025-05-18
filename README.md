@@ -3,14 +3,12 @@
 This is a solution to a challenge "Simple Expense Tracker" from the website [ICodeThis](https://icodethis.com/modes/functional/37).
 
 ## Table of contents
-- [Simple Expense Tracker Page /ICodeThis Challenge](#simple-expense-tracker-page-icodethis-challenge)
-  - [Table of contents](#table-of-contents)
-  - [Task](#task)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [How it works](#how-it-works)
-  - [Built with](#built-with)
-  - [Author](#author)
+- [Task](#task)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [How it works](#how-it-works)
+- [Built with](#built-with)
+- [Author](#author)
 
 ## Task
 
@@ -30,7 +28,7 @@ Show a total sum of all expenses.
 
 ## Links
 
-[Background Changer Page](https://your-solution-url.com)
+[Simple Expense Tracker Page](https://axinitm.github.io/Simple-Expense-Tracker-Page-ICodeThis-Challenge/)
 
 ## How it works
 
