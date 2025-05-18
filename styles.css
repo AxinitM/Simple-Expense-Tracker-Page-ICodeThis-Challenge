@@ -1,0 +1,116 @@
+:root {
+  /* Color palette */
+  --bg-color-body: #e6e6fa;
+  --bg-color-container: #ffffff;
+  --bg-color-button: #303864;
+  --bg-color-button-hover: #434e8d;
+  --bg-color-list-item: #f4d16f;
+  --text-color-title: #333;
+  --text-color-list-item: #303864;
+  --text-color-button: #ffffff;
+
+  /* Spacing */
+  --container-margin: 50px auto;
+  --container-padding: 20px;
+  --input-padding: 10px;
+  --button-padding: 12px;
+  --gap-between-items: 15px;
+  --border-radius: 10px;
+
+  /* Typography */
+  --font-family-base: Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-title: 1.2rem;
+  --font-size-button: 1rem;
+
+  /* Shadows */
+  --box-shadow-default: 0 0 10px rgba(0, 0, 0, 0.1);
+  --box-shadow-list-item: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--bg-color-body);
+}
+
+.container {
+  max-width: 400px;
+  margin: var(--container-margin);
+  padding: var(--container-padding);
+  background-color: var(--bg-color-container);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-default);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--text-color-title);
+}
+
+.form-group {
+  margin-bottom: var(--gap-between-items);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: var(--input-padding);
+  font-size: var(--font-size-base);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: var(--bg-color-button);
+  border: none;
+  border-radius: 5px;
+  color: var(--text-color-button);
+  cursor: pointer;
+  font-size: var(--font-size-button);
+  padding: var(--button-padding);
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: var(--bg-color-button-hover);
+}
+
+.expense-list-wrapper {
+  margin-top: 32px;
+}
+
+h2 {
+  font-size: var(--font-size-title);
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+li {
+  background-color: var(--bg-color-list-item);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-list-item);
+  color: var(--text-color-list-item);
+  margin-bottom: 10px;
+  padding: 10px;
+}
